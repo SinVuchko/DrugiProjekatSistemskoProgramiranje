@@ -42,7 +42,7 @@ class Program
 
                 Program.IsRunning = false;
 
-                listener.Stop();
+                listener.Close();
 
                 queue.Stop();
             };

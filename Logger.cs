@@ -15,10 +15,11 @@ namespace DrugiProjekatSistemskoProgramiranje
         {
             lock (lockObj)
             {
-                File.AppendAllText(
+                /*File.AppendAllText(
                     "server.log",
                     $"{DateTime.Now} {msg}\n"
-                );
+                );*/
+                Console.WriteLine(msg);
             }
         }
     }
